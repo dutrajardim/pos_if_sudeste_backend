@@ -1,0 +1,12 @@
+{
+  "name": "atividade_1",
+  "version": "1.0.0",
+  "description": "Primeira atividade da disciplina de backend do curso de Pós Graduação em Desenvolvimento Web e Mobile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Dutra Jardim",
+  "license": "ISC"
+}
