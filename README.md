@@ -9,8 +9,11 @@ As atividades realizadas serão dispostas com base na estrutura que segue:
 │   └── README.md       <br />
 ├── atividade_2         <br />
 │   └── README.md       <br />
+├── atividade_3         <br />
+│   └── README.md       <br />
 └── README.md           <br />
 
 Descrição das atividades:
 * [Primaira atividades](atividade_1/README.md)
 * [Segunda atividades](atividade_2/README.md)
+* [Terceira atividades](atividade_3/README.md)
