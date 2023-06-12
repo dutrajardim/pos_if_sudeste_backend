@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Navbar from "../components/Navbar"
 
 function App() {
   const [values, setValues] = useState("")
@@ -26,9 +27,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center h-full bg-slate-700 text-white">
-      <p className="text-5xl py-10 font-bold font-sans text-white">
-        Página principal
-      </p>
+      <Navbar />
       <div className="flex flex-col gap-3">
         <span>Insira valores numéricos separados por vírgula:</span>
         <input type="text" placeholder="Ex. 1,2,3,76" className="p-2 text-slate-800" onChange={el => setValues(el.target.value)} value={values} />

@@ -3,6 +3,7 @@ import App from "./pages/App"
 import ErrorPage from "./pages/ErrorPage"
 import Contacts from "./pages/Contacts"
 import Contact from "./pages/Contact"
+import ContactForm from "./features/contact/ContactForm"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     element: <Contact />,
     errorElement: <ErrorPage />
   },
+  {
+    path: "/contact",
+    element: <ContactForm />,
+    errorElement: <ErrorPage />
+  }
 ])
 
 export default router

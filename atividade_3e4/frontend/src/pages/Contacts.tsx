@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Navbar from "../components/Navbar"
 
 
 export default function Contacts(): JSX.Element {
@@ -16,6 +17,8 @@ export default function Contacts(): JSX.Element {
   }, [])
   return (
     <div className="flex flex-col items-center h-full bg-slate-700">
+      <Navbar />
+
       <p className="text-5xl py-10 font-bold font-sans text-white">
         Contatos
       </p>

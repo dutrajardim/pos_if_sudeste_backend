@@ -10,6 +10,11 @@ apiRouter.post('/sum', (req, res) =>
     res.status(200).json({ result: req.body.reduce((acc, cur) => acc + cur, 0) }) :
     res.status(400).json({ message: "O corpo da requisição deve conter um array de números!" }))
 
+apiRouter.post('/contact', (req, res) => {
+  console.log(req.body)
+  return res.status(200).json(req.body)
+})
+
 apiRouter.get('/contacts', (_, res) =>
   res.status(200).json(contacts))
 
